@@ -1,0 +1,234 @@
+.for_communication_full_section{
+    width: 100%;
+}
+
+.for_communication_full_img {
+    margin-top: 150px;
+    background-image: url(../расходники/Frame12.png);
+    width: 100%;
+    height: 717px;
+    background-size: cover;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+
+}
+
+.for_communication_width_1400px{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.for_communication_h2 {
+    width: 553px;
+    padding-bottom: 60px;
+    padding-top: 100px;
+    color: #FFF;
+    font-family: IBM Plex Mono;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px; /* 100% */
+    letter-spacing: -1.8px;
+}
+
+.for_communication_input_container{
+    
+}
+
+.for_communication_input_name_email{
+    
+    padding-left: 40px;
+    display: block;
+    border-radius: 1000px;
+    background: #3B3D3B;
+    width: 527px;
+    height: 60px;
+    line-height: 54px;
+    border: none;
+    color: #FFF;
+    font-family: IBM Plex Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.66px;
+    opacity: 1;
+}
+.for_communication_input_name{
+    margin-bottom: 15px;
+}
+
+.for_communication_input_email{
+    margin-bottom: 60px;
+}
+
+.for_communication_button{
+    display: block;
+    width: 450px;
+    height: 70px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #1BFF07;
+}
+
+.for_communication_button_p{
+    color: #000;
+    text-align: center;
+    font-family: IBM Plex Mono;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+
+@media (max-width: 1199px){
+    .for_communication_full_img {
+        margin-top: 110px;
+        width: 100%;
+        height: 484px;
+    }
+
+    .for_communication_width_1400px{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .for_communication_width_1400px_wrepper{
+        margin-left: 50px;
+        width: 423px;
+    }
+
+    .for_communication_h2 {
+        width: 100%;
+        padding-bottom: 40px;
+        padding-top: 50px;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 40.5px; /* 101.25% */
+        letter-spacing: -1.2px;
+    }
+
+
+    .for_communication_input_container{
+    
+    }
+
+    .for_communication_input_name_email{
+    
+        padding-left: 24px;
+        display: block;
+        border-radius: 675px;
+        background: #3B3D3B;
+        width: 359px;
+        height: 41px;
+        line-height: normal;
+        border: none;
+        letter-spacing: -0.48px;
+    }
+
+    .for_communication_input_name{
+        margin-bottom: 6px;
+    }
+    
+    .for_communication_input_email{
+        margin-bottom: 40px;
+    }
+
+    
+    .for_communication_button{
+        display: block;
+        width: 304px;
+        height: 47px;
+        border-radius: 6.75px;
+    }
+
+    .for_communication_button_p{
+        font-size: 16px;
+        font-weight: 400;
+        letter-spacing: -0.48px;
+    }
+}
+
+@media (max-width: 767px){
+    .for_communication_full_img {
+        background-image: none;
+    
+    }
+    
+    .for_communication_width_1400px{
+        width: 100%;
+        background: #191C19;
+        padding-left: 13px;
+        padding-right: 12px;
+        padding-bottom: 52px;
+    }
+
+    .for_communication_width_1400px_wrepper{
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .for_communication_h2 {
+        
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 40px;
+        color: #FFF;
+        font-family: IBM Plex Mono;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 37.329px; /* 106.653% */
+        letter-spacing: -1.05px;
+    }
+    
+    .for_communication_input_container{
+        
+    }
+    
+    .for_communication_input_name_email{
+        padding-left: 0px;
+        display: block;
+        border-radius: 622.143px;
+        width: 100%;
+        height: 38px;
+        line-height: 38px;
+        border: none;
+        font-size: 15px;
+        letter-spacing: -0.45px;
+    }
+
+    .for_communication_input_name_email::before {
+        content: "";
+        display: inline-block;
+        width: 21px;
+    }
+
+    .for_communication_input_name{
+        margin-bottom: -2px;
+    }
+    
+    .for_communication_input_email{
+        margin-bottom: 40px;
+    }
+
+    .for_communication_button{
+
+        display: block;
+        width: 100%;
+        height: 43px;
+        border-radius: 6.221px;
+
+    }
+
+    .for_communication_button_p{
+        font-size: 15px;
+        font-weight: 400;
+        letter-spacing: -0.45px;
+    }
+
+}

@@ -1,0 +1,140 @@
+.my_competencies_width_1400px{
+    width: 1150px;
+    margin: 0 auto;
+    height: auto;
+}
+
+.my_competencies_h2 {
+    padding-top: 150px;
+    color: #FFF;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.65px;
+}
+
+.my_competencies_ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.my_competencies_li{
+    width: calc(50% - 7px);
+}
+
+
+.my_competencies__icon {
+    margin-top: 60px;
+    width: 45px;
+    height: 44px;
+    flex-shrink: 0;
+}
+
+.my_competencies__h3 {
+    margin-top: 12px;
+    width: auto;
+    color: #1BFF07;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.05px;
+}
+
+.my_competencies__p {
+    margin-top: 15px;
+    width: auto;
+    color: #FFF;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+
+@media (max-width: 1199px){
+
+    .my_competencies_width_1400px{
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .my_competencies_h2 {
+        padding-top: 150px;
+        padding-left: 0px;
+        width: auto;
+        font-size: 45px;
+        letter-spacing: -1.35px;
+    }
+
+    .my_competencies__icon {
+        margin-left: 0px;
+        margin-top: 60px;
+        width: 36px;
+        height: 36px;
+        flex-shrink: 0;
+    }
+    
+    .my_competencies__h3 {
+        margin-left: 0px;
+        margin-top: 10px;
+        width: auto;
+        font-size: 28px;
+        letter-spacing: -0.84px;
+    }
+
+    .my_competencies__p {
+        margin-left: 0px;
+        margin-top: 13px;
+        width: auto;
+        font-size: 18px;
+        letter-spacing: -0.54px;
+    }
+
+}
+
+
+@media (max-width: 767px){
+    .my_competencies_width_1400px{
+        width: 100%;
+        margin: 0 auto;
+        padding-left: 13px;
+        padding-right: 12px;
+    }
+
+    .my_competencies_h2 {
+        padding-top: 100px;
+    }
+
+
+    .my_competencies_ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: normal;
+        flex-wrap: wrap;
+    }
+    .my_competencies_li{
+        width: 100%;
+    }
+
+
+    .my_competencies__icon {
+        margin-left: 0px;
+        margin-top: 60px;
+        width: 36px;
+        height: 36px;
+        flex-shrink: 0;
+    }
+
+    .my_competencies__p {
+        margin-left: 15px;
+        margin-top: 13px;
+    }
+
+
+}

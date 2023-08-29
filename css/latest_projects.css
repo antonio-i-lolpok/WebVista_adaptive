@@ -1,0 +1,448 @@
+.the_latest_projects_1400px {
+    margin: 0 auto;
+    width: 1150px;
+    background-color:  black;
+    font-family: IBM Plex Mono;
+    height: 0 auto;
+}
+
+
+.latest_projects{
+
+    padding-top: 150px;
+    width: 1048px;
+    color: #FFF;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.65px;
+}
+
+
+.latest_projects_img_h3 {
+    margin-left: 50px;
+    padding-top: 313px;
+    width: 506px;
+    color: #FFF;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+
+.latest_projects_img_p {
+    margin-left: 50px;
+    margin-top: 5px;
+    width: 506px;
+    color: #FFF;
+
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+}
+
+.latest_projects_img_1 {
+    margin-top: 40px;
+    width: 1150px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.90) 100%), url(<path-to-image>), lightgray 0px -11.324px / 100% 156.818% no-repeat;
+    background-image: url(../расходники/my_project_1.png);
+}
+
+.latest_projects_img_1_buble {
+    margin-top: 50px;
+    margin-left: 45px;
+    width: 206px;
+    height: 47px;
+    background-color: #1BFF07;
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+}
+.latest_projects_img_1_buble_p{
+    color: #000;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
+.latest_projects_img_2 {
+    width: 1150px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.90) 100%), url(<path-to-image>), lightgray 0px -11.324px / 100% 156.818% no-repeat;
+    background-image: url(../расходники/my_project_2.png);
+}
+
+.latest_projects_img_2_buble {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 245;
+    height: 47px;
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #1BFF07;
+}
+
+.latest_projects_img_2_buble_p{
+    color: #000;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
+
+.latest_projects_img_3 {
+    width: 1150px;
+    height: 550px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.90) 100%), url(<path-to-image>), lightgray 0px -11.324px / 100% 156.818% no-repeat;
+    background-image: url(../расходники/my_project_3.png);
+}
+
+.latest_projects_img_3_buble {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 212;
+    height: 47px;
+    display: inline-flex;
+    padding: 10px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    border-radius: 100px;
+    background: #1BFF07;
+}
+
+.latest_projects_img_3_buble_p{
+    color: #000;
+    font-family: Manrope;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.6px;
+}
+
+.href_see_all_project {
+    margin-top: 80px;
+    display: block;
+    width: 582px;
+    height: 153px;
+    border-radius: 10px;
+    background: #1BFF07;
+
+}
+
+.href_see_all_project_txt {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    color: #000;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    text-decoration: none;
+}
+
+.href_see_all_project:hover {
+    background-color: black;
+    border-radius: 4.674px;
+    border: 1px solid #1BFF07;
+}
+
+.href_see_all_project:hover .href_see_all_project_txt {
+    color: #1BFF07;
+}
+
+
+
+@media (max-width: 1199px){
+    .the_latest_projects_1400px {
+        margin: 0 auto;
+        width: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .latest_projects{
+        padding-top: 150px;
+        margin-left: 0;
+        width: auto;
+        font-family: IBM Plex Mono;
+        font-size: 45px;
+        letter-spacing: -1.35px;
+    }
+
+    .latest_projects_img_h3 {
+        margin-left: 40px;
+        padding-top: 263px;
+        width: auto;
+        color: #FFF;
+        font-size: 28px;
+        letter-spacing: -0.84px;
+    }
+    
+    .latest_projects_img_p {
+        margin-left: 40px;
+        margin-top: 5px;
+        width: auto;
+        color: #FFF;
+        font-size: 24px;
+        letter-spacing: -0.72px;
+    }
+
+
+    .latest_projects_img_1 {
+        margin-top: 53px;
+        margin-left: 0px;
+        width: 100%;
+        height: 445px;
+        border-radius: 24.261px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.90) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+        background-image: url(../расходники/my_project_1.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-position: 50% 20%;
+    }
+    .latest_projects_img_1_buble {
+        margin-top: 40px;
+        margin-left: 35px;
+        background-color: #1BFF07;
+        width: 165px;
+        height: 38px;
+        padding: 8.087px 16.174px;
+        justify-content: center;
+        align-items: center;
+        gap: 8.087px;
+        flex-shrink: 0;
+        border-radius: 80.87px;
+    }
+    .latest_projects_img_1_buble_p{
+        font-size: 16px;
+        letter-spacing: -0.48px;
+    }
+
+
+    .latest_projects_img_2 {
+        margin-left: 0px;
+        width: 100%;
+        height: 445px;
+        border-radius: 24.261px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.90) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+        background-image: url(../расходники/my_project_2.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-position: 50% 20%;
+    }
+    .latest_projects_img_2_buble {
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 201px;
+        height: 38px;
+        padding: 8.087px 16.174px;
+        justify-content: center;
+        align-items: center;
+        gap: 8.087px;
+        flex-shrink: 0;
+        border-radius: 80.87px;
+        background: #1BFF07;
+    }
+    .latest_projects_img_2_buble_p{
+        font-size: 16px;
+        letter-spacing: -0.48px;
+    }
+
+
+    .latest_projects_img_3 {
+        margin-left: 0px;
+        width: 100%;
+        height: 445px;
+        border-radius: 24.261px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.90) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+        background-image: url(../расходники/my_project_3.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        background-position: 50% 20%;
+    }
+    .latest_projects_img_3_buble {
+        margin-top: 40px;
+        margin-left: 40px;
+        width: 181px;
+        height: 38px;
+        padding: 8.087px 16.174px;
+        justify-content: center;
+        align-items: center;
+        gap: 8.087px;
+        flex-shrink: 0;
+        border-radius: 80.87px;
+        background: #1BFF07;
+    }
+    .latest_projects_img_3_buble_p{
+        font-size: 16px;
+        letter-spacing: -0.48px;
+    }
+
+
+
+    .href_see_all_project {
+        margin-left: 0px;
+        margin-top: 64px;
+        display: block;
+        width: 460px;
+        height: 124px;
+        border-radius: 8.087px;
+    
+    }
+    .href_see_all_project_txt {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 24.261px;
+        letter-spacing: -0.728px;
+    }
+}
+
+
+
+
+
+
+@media (max-width: 767px){
+    .the_latest_projects_1400px {
+        padding-left: 13px;
+        padding-right: 12px;
+    }
+
+    .latest_projects{
+        padding-top: 100px;
+        font-size: 30px;
+        letter-spacing: -0.9px;
+    }
+
+
+    .latest_projects_img_h3 {
+        margin-left: 35px;
+        padding-top: 273px;
+        font-size: 28px;
+        letter-spacing: -0.84px;
+    }
+    
+    .latest_projects_img_p {
+        margin-left: 35px;
+        margin-top: 5px;
+        font-size: 16px;
+        letter-spacing: -0.48px;
+    }
+
+
+    
+    .latest_projects_img_1 {
+        margin-top: 34px;
+        height: 445px;
+        border-radius: 24.261px;
+    }
+    .latest_projects_img_1_buble {
+        margin-top: 30px;
+        margin-left: 33px;
+        width: 147px;
+        height: 30px;
+        padding: 6.446px 12.892px;
+        justify-content: center;
+        align-items: center;
+        gap: 6.446px;
+        flex-shrink: 0;
+        border-radius: 64.461px;
+        background: #1BFF07;
+    }
+    .latest_projects_img_1_buble_p{
+        font-size: 13px;
+        letter-spacing: -0.39px;
+    }
+
+
+    .latest_projects_img_2_buble {
+        margin-top: 31px;
+        margin-left: 30px;
+        width: 159px;
+        height: 30px;
+        padding: 6.446px 12.892px;
+        justify-content: center;
+        align-items: center;
+        gap: 6.446px;
+        border-radius: 64.461px;
+        background: #1BFF07;
+    }
+    .latest_projects_img_2_buble_p{
+        font-size: 13px;
+        letter-spacing: -0.39px;
+    }
+
+
+    .latest_projects_img_3_buble {
+        margin-top: 31px;
+        margin-left: 30px;
+        width: 140px;
+        height: 27px;
+        padding: 5.661px 11.322px;
+        justify-content: center;
+        align-items: center;
+        gap: 5.661px;
+        flex-shrink: 0;
+        border-radius: 56.609px;
+        background: #1BFF07;
+    }
+    .latest_projects_img_3_buble_p{
+        font-size: 13px;
+        letter-spacing: -0.39px;
+    }
+
+
+
+    .href_see_all_project {
+        margin-top: 60px;
+        display: block;
+        width: 100%;
+        height: 80px;
+    }
+    .href_see_all_project_txt {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 18px;
+        letter-spacing: -0.54px;
+    }
+
+}

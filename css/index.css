@@ -1,0 +1,23 @@
+@import url("/css/welcome_photo.css");
+@import url("/css/full_img_comunicate.css");
+@import url("/css/latest_projects.css");
+@import url("/css/my_competencies.css");
+@import url("/css/help_to_realize.css");
+@import url("/css/footer.css");
+
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    font-family: 'IBM Plex Mono', monospace;
+    font-family: 'Manrope', sans-serif;
+    background-color: black;
+    width: 100%;
+    
+}
